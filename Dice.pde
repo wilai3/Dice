@@ -37,30 +37,53 @@ class Die //models one single dice cube
   void show()
   {
     //your code here
-    rect(myX,myY,50,50);
     //one
     if (dieNum == 1){
+      fill(#EA3E3E);
+      rect(myX,myY,50,50);
+      fill(0,0,0);
       ellipse(myX+25,myY+25,10,10);
+      noFill();
     } 
     //two
     else if (dieNum == 2){
+      rect(myX,myY,50,50);
       ellipse(myX+15,myY+15,10,10);
       ellipse(myX+35,myY+35,10,10);
     }
     //three
     else if (dieNum == 3){
+      rect(myX,myY,50,50);
       ellipse(myX+25,myY+25,10,10);
       ellipse(myX+15,myY+15,10,10);
       ellipse(myX+35,myY+35,10,10);
     }
     //four
     else if (dieNum == 4){
+      rect(myX,myY,50,50);
       ellipse(myX+15,myY+15,10,10);
       ellipse(myX+35,myY+35,10,10);
       ellipse(myX+35,myY+15,10,10);
       ellipse(myX+15,myY+35,10,10);
     } 
     //five
-    else if (dieNum == 5){}
+    else if (dieNum == 5){
+      rect(myX,myY,50,50);
+      ellipse(myX+25,myY+25,10,10);
+      ellipse(myX+15,myY+15,10,10);
+      ellipse(myX+35,myY+35,10,10);
+      ellipse(myX+35,myY+15,10,10);
+      ellipse(myX+15,myY+35,10,10);
+    }
+    //six
+    else if (dieNum == 6){
+      rect(myX,myY,50,50);
+      ellipse(myX+15,myY+15,10,10);
+      ellipse(myX+15,myY+27,10,10);
+      ellipse(myX+15,myY+39,10,10);
+      ellipse(myX+35,myY+15,10,10);
+      ellipse(myX+35,myY+27,10,10);
+      ellipse(myX+35,myY+39,10,10);
+    }
   }
 }
