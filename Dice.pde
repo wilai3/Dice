@@ -15,7 +15,7 @@ void draw()
     }  
 }
   textSize(20);
-  text("Total: " +sum,200,475);
+  text("Sum of Dice: " +sum,200,475);
 }
 void mousePressed()
 {
