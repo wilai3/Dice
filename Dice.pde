@@ -5,7 +5,6 @@ void setup()
 }
 void draw()
 {
-  //your code here
   background(255,255,255);
   int sum = 0;
   for(int x = 0; x<10; x++){
@@ -39,7 +38,6 @@ class Die //models one single dice cube
   
   void show()
   {
-    //your code here
     //one
     if (dieNum == 1){
       fill(#EA3E3E);
